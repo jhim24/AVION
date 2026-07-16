@@ -284,6 +284,63 @@ text-align:center;
 
 }
 /*==============================
+ SCROLL INDICATOR
+==============================*/
+
+.scroll-indicator{
+
+    position:absolute;
+
+    bottom:35px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    z-index:20;
+
+}
+
+.scroll-indicator span{
+
+    display:block;
+
+    width:28px;
+
+    height:48px;
+
+    border:2px solid rgba(255,255,255,.7);
+
+    border-radius:50px;
+
+    position:relative;
+
+}
+
+.scroll-indicator span::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+
+    top:8px;
+
+    transform:translateX(-50%);
+
+    width:6px;
+
+    height:6px;
+
+    background:#ffffff;
+
+    border-radius:50%;
+
+    animation:scrollDown 2s infinite;
+
+}
+/*==============================
  PREMIUM NAVBAR
 ==============================*/
 
