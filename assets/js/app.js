@@ -6,11 +6,15 @@ const menuBtn=document.querySelector(".menu-btn");
 
 const mobileMenu=document.querySelector(".mobile-menu");
 
-menuBtn.onclick=()=>{
+menuBtn.onclick = () => {
 
-mobileMenu.classList.toggle("active");
+    mobileMenu.classList.toggle("active");
 
-}
+    menuBtn.querySelector("i").classList.toggle("fa-bars");
+
+    menuBtn.querySelector("i").classList.toggle("fa-xmark");
+
+};
 
 // =========================
 // NAVBAR SCROLL
