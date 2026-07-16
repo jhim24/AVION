@@ -568,3 +568,73 @@ text-align:center;
     color:#4ea3ff;
 
 }
+.menu-btn{
+
+    display:none;
+
+    font-size:28px;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+.mobile-menu{
+
+    position:fixed;
+
+    top:80px;
+
+    right:-100%;
+
+    width:280px;
+
+    height:calc(100vh - 80px);
+
+    background:#090909;
+
+    transition:.4s;
+
+    display:flex;
+
+    flex-direction:column;
+
+    padding:40px;
+
+    gap:25px;
+
+    z-index:9998;
+
+}
+
+.mobile-menu.active{
+
+    right:0;
+
+}
+
+.mobile-menu a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+}
+@media(max-width:900px){
+
+.nav-links{
+
+display:none;
+
+}
+
+.menu-btn{
+
+display:block;
+
+}
+
+}
