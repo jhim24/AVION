@@ -41,7 +41,7 @@ font-size:17px;
 
 }
 
-.tagline{
+.hero-tag{
 
 letter-spacing:3px;
 
@@ -51,9 +51,15 @@ font-size:11px;
 
 .hero-buttons{
 
-flex-direction:column;
+    width:100%;
 
-align-items:center;
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:16px;
 
 }
 .hero{
@@ -146,7 +152,7 @@ text-align:center;
 
 /* Background */
 
-.hero-bg{
+.hero-video{
 
     position:absolute;
 
@@ -164,7 +170,7 @@ text-align:center;
 
 }
 
-.overlay{
+.hero-overlay{
 
     position:absolute;
 
@@ -206,7 +212,7 @@ text-align:center;
 
 }
 
-.tagline{
+.hero-tag{
 
     display:inline-block;
 
@@ -268,7 +274,13 @@ text-align:center;
 
     justify-content:center;
 
+    align-items:center;
+
+    flex-wrap:wrap;
+
     gap:20px;
+
+    width:100%;
 
 }
 .btn{
