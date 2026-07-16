@@ -424,12 +424,6 @@ text-align:center;
  MEMBERS SECTION
 ==============================*/
 
-.members{
-
-    padding:120px 8%;
-
-    background:#090909;
-
 }
 
 .section-title{
@@ -926,7 +920,7 @@ text-align:center;
 
     padding:120px 8%;
 
-    background:#050505;
+    background:transparent;
 
 }
 
@@ -1164,7 +1158,7 @@ text-align:center;
 
 .footer{
 
-    background:#050505;
+   background:rgba(8,15,30,.55);
 
     padding:70px 8% 35px;
 
