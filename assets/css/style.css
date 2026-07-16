@@ -417,6 +417,89 @@ text-align:center;
     transform:scale(1.08);
 
 }
+.member-info{
+
+    position:absolute;
+
+    left:0;
+
+    bottom:0;
+
+    width:100%;
+
+    padding:25px;
+
+    background:linear-gradient(
+
+        transparent,
+
+        rgba(0,0,0,.92)
+
+    );
+
+}
+
+.member-info h3{
+
+    font-size:24px;
+
+    font-weight:700;
+
+    margin-bottom:6px;
+
+}
+
+.member-info p{
+
+    color:#4EA3FF;
+
+    font-size:15px;
+
+    font-weight:500;
+
+}
+/*==============================
+ MEMBERS RESPONSIVE
+==============================*/
+
+/* Laptop */
+@media (max-width:1200px){
+
+    .members-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+}
+
+/* Tablet */
+@media (max-width:900px){
+
+    .members-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/* Mobile */
+@media (max-width:600px){
+
+    .members-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .member-card img{
+
+        height:380px;
+
+    }
+
+}
 /*==============================
  SCROLL INDICATOR
 ==============================*/
