@@ -726,9 +726,25 @@ text-align:center;
 
 }
 
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    text-decoration:none;
+
+}
+
 .logo img{
 
-    height:55px;
+    height:58px;
+
+    width:auto;
+
+    display:block;
+
+    object-fit:contain;
 
 }
 
@@ -846,17 +862,23 @@ text-align:center;
 }
 @media(max-width:900px){
 
-.nav-links{
+    .nav-links{
 
-display:none;
+        display:none;
 
-}
+    }
 
-.menu-btn{
+    .menu-btn{
 
-display:block;
+        display:block;
 
-}
+    }
+
+    .logo img{
+
+        height:42px;
+
+    }
 
 }
 /*==============================
