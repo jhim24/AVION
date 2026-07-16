@@ -207,3 +207,42 @@ body{
     background:#4ea3ff;
 
 }
+/*=========================
+ MOBILE
+==========================*/
+
+@media(max-width:768px){
+
+.navbar{
+
+padding:20px;
+
+}
+
+.navbar ul{
+
+display:none;
+
+}
+
+.logo img{
+
+height:45px;
+
+}
+
+.hero-content h1{
+
+font-size:55px;
+
+letter-spacing:5px;
+
+}
+
+.hero-content p{
+
+font-size:16px;
+
+}
+
+}
