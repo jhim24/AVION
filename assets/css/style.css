@@ -309,6 +309,70 @@ text-align:center;
 
 }
 /*==============================
+ MEMBERS SECTION
+==============================*/
+
+.members{
+
+    padding:120px 8%;
+
+    background:#090909;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.section-title span{
+
+    color:#4EA3FF;
+
+    letter-spacing:4px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+.section-title h2{
+
+    font-size:50px;
+
+    margin-top:12px;
+
+    margin-bottom:15px;
+
+}
+
+.section-title p{
+
+    max-width:650px;
+
+    margin:auto;
+
+    color:#BFBFBF;
+
+    line-height:1.8;
+
+}
+.members-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+    margin-top:60px;
+
+}
+/*==============================
  SCROLL INDICATOR
 ==============================*/
 
