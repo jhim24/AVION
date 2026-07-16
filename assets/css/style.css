@@ -147,7 +147,7 @@ text-align:center;
     overflow:hidden;
 
     padding:120px 20px 60px;
-
+    isolation:isolate;
 }
 
 /* Background */
@@ -178,11 +178,16 @@ text-align:center;
 
     background:linear-gradient(
 
-        rgba(0,0,0,.55),
-
-        rgba(0,0,0,.75)
-
-    );
+        rbackground:
+linear-gradient(
+rgba(0,0,0,.45),
+rgba(0,0,0,.80)
+),
+radial-gradient(
+circle at center,
+rgba(30,120,255,.15),
+transparent 60%
+);
 
 }
 
