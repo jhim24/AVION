@@ -56,7 +56,57 @@ flex-direction:column;
 align-items:center;
 
 }
+.hero{
 
+    padding:100px 20px 60px;
+
+}
+
+.hero-content{
+
+    width:100%;
+
+    max-width:100%;
+
+    padding:0;
+
+}
+
+.hero-title{
+
+    font-size:60px;
+
+    letter-spacing:6px;
+
+}
+
+.hero-description{
+
+    width:100%;
+
+    max-width:320px;
+
+    margin:20px auto;
+
+    font-size:18px;
+
+}
+
+.hero-tag{
+
+    font-size:12px;
+
+    letter-spacing:2px;
+
+}
+
+.scroll-indicator{
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+}
 .btn,
 
 .btn-outline{
