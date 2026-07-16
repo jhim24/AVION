@@ -859,3 +859,26 @@ display:block;
 }
 
 }
+/*==============================
+ LATEST VIDEOS
+==============================*/
+
+.videos{
+
+    padding:120px 8%;
+
+    background:#050505;
+
+}
+
+.video-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+    margin-top:60px;
+
+}
