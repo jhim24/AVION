@@ -176,18 +176,16 @@ text-align:center;
 
     inset:0;
 
-    background:linear-gradient(
-
-        rbackground:
-linear-gradient(
-rgba(0,0,0,.45),
-rgba(0,0,0,.80)
-),
-radial-gradient(
-circle at center,
-rgba(30,120,255,.15),
-transparent 60%
-);
+    background:
+        linear-gradient(
+            rgba(0,0,0,.45),
+            rgba(0,0,0,.80)
+        ),
+        radial-gradient(
+            circle at center,
+            rgba(30,120,255,.15),
+            transparent 60%
+        );
 
 }
 
