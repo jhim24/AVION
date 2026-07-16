@@ -168,13 +168,21 @@ text-align:center;
     animation:fadeUp 1.2s ease;
 
 }
-.hero-content p{
+.hero-description{
 
     margin-top:20px;
 
     color:#ddd;
 
-    font-size:22px;
+    font-size:20px;
+
+    line-height:1.8;
+
+    max-width:700px;
+
+    margin-left:auto;
+
+    margin-right:auto;
 
     animation:fadeUp 1.6s ease;
 
