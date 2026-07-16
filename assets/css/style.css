@@ -882,3 +882,20 @@ display:block;
     margin-top:60px;
 
 }
+.video-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:22px;
+
+    cursor:pointer;
+
+    background:#111;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.4s;
+
+}
