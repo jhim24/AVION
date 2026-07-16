@@ -16,11 +16,48 @@ html{
 }
 
 body{
-    background:#050505;
+
+    background:linear-gradient(
+        180deg,
+        #07111f 0%,
+        #0b1628 35%,
+        #111827 70%,
+        #05070d 100%
+    );
+
     color:#fff;
+
     overflow-x:hidden;
+
 }
 
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+
+        radial-gradient(circle at top left,
+        rgba(78,163,255,.14),
+        transparent 35%),
+
+        radial-gradient(circle at top right,
+        rgba(0,255,255,.10),
+        transparent 30%),
+
+        radial-gradient(circle at bottom,
+        rgba(100,100,255,.10),
+        transparent 40%);
+
+    pointer-events:none;
+
+    z-index:-999;
+
+}
 /*=========================
  MOBILE
 ==========================*/
