@@ -283,6 +283,31 @@ text-align:center;
     }
 
 }
+@keyframes scrollDown{
+
+    0%{
+
+        opacity:0;
+
+        transform:translate(-50%,0);
+
+    }
+
+    30%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        transform:translate(-50%,18px);
+
+    }
+
+}
 /*==============================
  SCROLL INDICATOR
 ==============================*/
