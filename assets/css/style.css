@@ -417,13 +417,18 @@ text-align:center;
     transform:scale(1.08);
 
 }
+.member-card:hover .member-info{
+
+    bottom:0;
+
+}
 .member-info{
 
     position:absolute;
 
     left:0;
 
-    bottom:0;
+    bottom:-80px;
 
     width:100%;
 
@@ -433,12 +438,13 @@ text-align:center;
 
         transparent,
 
-        rgba(0,0,0,.92)
+        rgba(0,0,0,.95)
 
     );
 
-}
+    transition:.45s ease;
 
+}
 .member-info h3{
 
     font-size:24px;
