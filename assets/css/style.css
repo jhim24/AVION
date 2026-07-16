@@ -153,8 +153,7 @@ text-align:center;
     margin-bottom:18px;
 
 }
-
-.hero-content h1{
+.hero-title{
 
     font-size:110px;
 
@@ -164,10 +163,11 @@ text-align:center;
 
     text-transform:uppercase;
 
+    color:#ffffff;
+
     animation:fadeUp 1.2s ease;
 
 }
-
 .hero-content p{
 
     margin-top:20px;
