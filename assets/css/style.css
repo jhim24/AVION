@@ -213,35 +213,43 @@ body{
 
 @media(max-width:768px){
 
-.navbar{
-
-padding:20px;
-
-}
-
-.navbar ul{
-
-display:none;
-
-}
-
-.logo img{
-
-height:45px;
-
-}
-
 .hero-content h1{
 
-font-size:55px;
+font-size:60px;
 
-letter-spacing:5px;
+letter-spacing:8px;
 
 }
 
 .hero-content p{
 
-font-size:16px;
+font-size:17px;
+
+}
+
+.tagline{
+
+letter-spacing:3px;
+
+font-size:11px;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.btn,
+
+.btn-outline{
+
+width:220px;
+
+text-align:center;
 
 }
 
@@ -367,5 +375,89 @@ font-size:16px;
     justify-content:center;
 
     gap:20px;
+
+}
+.btn{
+
+    background:#4ea3ff;
+
+    color:white;
+
+    padding:16px 42px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+    font-weight:600;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 15px 35px rgba(78,163,255,.45);
+
+}
+
+.btn-outline{
+
+    border:2px solid white;
+
+    color:white;
+
+    padding:16px 42px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+}
+
+.btn-outline:hover{
+
+    background:white;
+
+    color:#000;
+
+}
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes zoomHero{
+
+    from{
+
+        transform:scale(1.08);
+
+    }
+
+    to{
+
+        transform:scale(1.18);
+
+    }
 
 }
