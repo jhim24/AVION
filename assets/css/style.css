@@ -912,3 +912,46 @@ display:block;
     transition:transform .6s ease;
 
 }
+/*==============================
+ SOUND BUTTON
+==============================*/
+
+.sound-toggle{
+
+    position:absolute;
+
+    top:100px;
+
+    right:25px;
+
+    width:52px;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(12px);
+
+    color:#fff;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    z-index:100;
+
+    transition:.35s;
+
+}
+
+.sound-toggle:hover{
+
+    background:#4EA3FF;
+
+    transform:scale(1.08);
+
+}
